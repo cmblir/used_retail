@@ -1,7 +1,6 @@
 certifi==2021.10.8
 click==8.0.3
 cycler==0.11.0
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
 entrypoints==0.3
 Flask==2.0.2
 fonttools==4.29.1
@@ -15,31 +14,18 @@ konlpy==0.6.0
 lxml==4.7.1
 MarkupSafe==2.0.1
 matplotlib==3.5.1
-nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
 numpy==1.22.2
 packaging==21.3
 pandas==1.4.1
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow==9.0.1
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
 psycopg2-binary==2.9.3
-ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
 PyMySQL==1.0.2
 pyparsing==3.0.7
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 pytz==2021.3
-pyzmq @ file:///opt/concourse/worker/volumes/live/12b008ff-2acb-4e15-682d-fce50395a9d4/volume/pyzmq_1638434992289/work
 scikit-learn==1.0.2
 scipy==1.8.0
 seaborn==0.11.2
-six @ file:///tmp/build/80754af9/six_1623709665295/work
 sklearn==0.0
 SQLAlchemy==1.4.31
 threadpoolctl==3.1.0
-tornado @ file:///opt/concourse/worker/volumes/live/05341796-4198-4ded-4a9a-332fde3cdfd1/volume/tornado_1606942323372/work
-traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 Werkzeug==2.0.3
