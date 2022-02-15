@@ -5,7 +5,7 @@
                 <div style="background-color:lightgray; border: 5px solid #0a0a0a; border-radius:12px; width: auto; height: auto; margin: 15px; padding: 10px;">
                 <img src="{{ url_for('static', filename='image/mudo.jpeg') }}">
                 <p><h1 style="border: 5px double #DCDCDC; width: 500px; padding: 0.4em; background: #EBEEF0;">핸드폰 중고가격 적정가 알아보기</h1></p>
-                <form action = "https://usedphone.herokuapp.com/predict" method = "POST">
+                <form action = "/predict" method = "POST">
                     <b> 제조사 :  <input type="text", name='a', placeholder="예시 : apple"> <br><br>
                         기종 :  <input type="text", name='b', placeholder="예시 : iphone 6"> <br><br>
                         용량 :  <input type="text", name='c', placeholder="예시 : 16gb"> <br><br>
