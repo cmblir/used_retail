@@ -1,16 +1,21 @@
 <html>
-
-<body bgcolor=#9d3bc4>
-
-    <center>
-
-        <h1>  선택하신 모델의 적정 가치는 :  </h1>
-        <h5>{{ pred }}</h5>
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+    <body bgcolor=#AF70DA>
+        <center>
+        {% if pred %}
+        <div style="background-color:darkseagreen; border: 5px solid #0a0a0a; border-radius:12px; width: auto; height: auto; margin: 15px; padding: 10px;">
+        <img src="{{ url_for('static', filename='image/funny.gif') }}">
+        <h2>  예상 적정가  </h2>
+        <h3> 선택하신 모델의 예상 적정가는 : {{ pred }}</h3>
         <br><br>
-    <a href='/'>다시 측정하기</a>
-
+        {% endif %}
+        <!-- <img src="{{ url_for('static', filename='image/funny.gif') }}"> -->
+        <!-- <h1> 다시 측정해주세요 ! </h1> -->
+        <button style="border: 3px solid #0a0a0a; border-radius:12px; width: auto; height: auto; margin: 3px; padding: 5px;" ,"button" class="navyBtn" onClick="location.href='/'">다시 측정하기</button>
+        </div>
     </center>
 
-</body>
-
+    </body>
+</head>
 </html>

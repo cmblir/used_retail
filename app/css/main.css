@@ -1,0 +1,8 @@
+body {
+    height: 100vh;
+    background-image: url('img/signup.jpeg');
+    background-repeat : no-repeat;
+    background-size : cover;
+  }
+
+.txtBox00bg, .txtBox01bg, .txtBox02bg, .txtBox03bg, .txtBox04bg { border-style: solid; border-width: 2px; padding: 12px; word-break: break-all; } .txtBox00bg { border-color: LightGray; background-color:rgba(211, 211, 211, 0.2); } .txtBox01bg { border-color: DodgerBlue; background-color:rgba(30, 144, 255, 0.2); } .txtBox02bg { border-color: LightSalmon; background-color:rgba(255, 160, 122, 0.2); } .txtBox03bg { border-color: Tomato; background-color:rgba(255, 99, 71, 0.2); } .txtBox04bg { border-color: Crimson; background-color:rgba(237, 20, 61, 0.2); }
