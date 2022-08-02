@@ -23,7 +23,8 @@ Link: [중고나라](https://m.joongna.com/home)
 + 현재 중고상품이 거래되는 사이트에서 내가 원하는 상품의 적정 가치를 알 수 있습니다.
 + 마음에 드는 물건을 찾을 경우 해당 물건의 상태를 알 수 있습니다.
 + 카테고리를 선택하면 평균 가격을 유추할 수 있습니다. 합리적인 소비를 기대할 수 있습니다.
-+ 
+
+
 ***
 ### System Architecture
 ![Project_musinsa](https://user-images.githubusercontent.com/75519839/154206780-53fdfb16-2b9b-48f2-8dd2-ff6abf50408b.png)
