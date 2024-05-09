@@ -3,7 +3,7 @@ import scipy.io
 import csv
 import pymysql
 
-conn = pymysql.connect(host='localhost', user='root',password='tlsdud12!!', db='DBtest1', charset='utf8')
+conn = pymysql.connect(host='localhost', user='root',password='1234', db='DBtest1', charset='utf8')
 cur = conn.cursor()
 conn.commit()
 
