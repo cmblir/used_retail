@@ -1,6 +1,5 @@
 # <center> used_retail price prediction </center>
-![번개장터](https://user-images.githubusercontent.com/75519839/154205969-dce8d5c9-5d62-4343-9ec7-708d9ed4b335.jpg)
-![중고나라](https://user-images.githubusercontent.com/75519839/154206071-6041f897-1206-40b7-b06e-54790a2e6865.png)
+<img src = "https://user-images.githubusercontent.com/75519839/154205969-dce8d5c9-5d62-4343-9ec7-708d9ed4b335.jpg" width="100px"><img src = "https://user-images.githubusercontent.com/75519839/154206071-6041f897-1206-40b7-b06e-54790a2e6865.png" width="100px">
 
 Extract Data From Musinsa Using Selenium & BeautifulSoup4/Python
 <img src = "https://user-images.githubusercontent.com/75519839/153009836-fc8e76bd-754c-4061-81c8-7a3a396b8144.png" width="30px">
