@@ -3,9 +3,8 @@ import csv
 
 # sqlalchemy로 url 지정해서 넣어보려했으나 실패
 # from sqlalchemy import create_engine
-# engine = create_engine('postgres://hjqqgqwu:Au5DFt5vA4NZ-MrtRzIfTpMGIzWxQKoq@arjuna.db.elephantsql.com/hjqqgqwu')
 conn = psycopg2.connect(host='arjuna.db.elephantsql.com', 
-dbname='hjqqgqwu', user='hjqqgqwu', password='Au5DFt5vA4NZ-MrtRzIfTpMGIzWxQKoq', port=5432)
+dbname='*', user='*', password='*', port=5432)
 cur = conn.cursor()
 
 # f = open('used_mobile_phone.csv','r')
@@ -19,7 +18,6 @@ cur.execute("CREATE TABLE bangae (locate varchar);")
 #conn.commit()
 
 # 변수 지정해서 copy문 사용해서 시도했으나 실패
-# sql2 = """ \copy used_retail(create_date, price, phone_model, factory_price, maker, price_index) FROM '/Users/mac/project/used_retail/used_mobile_phone.csv' DELIMITER ',' CSV HEADER; """
 
 # cur.execute(sql2)
 conn.commit()
@@ -31,7 +29,7 @@ conn.close()
 class Database():
     def __init__(self):
         self.db = psycopg2.connect(host='arjuna.db.elephantsql.com', 
-        dbname='hjqqgqwu', user='hjqqgqwu', password='Au5DFt5vA4NZ-MrtRzIfTpMGIzWxQKoq', port=5432)
+        dbname='*', user='*', password='*', port=5432)
         self.cur = db.cursor()
 
     def __del__(self):
